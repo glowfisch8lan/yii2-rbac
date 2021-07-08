@@ -1,15 +1,12 @@
 {
-    "name": "ibls/yii2-payment",
-    "description": "Сервис для приема платежей. Глобальная обертка для работы с выбранным платежным шлюзом",
-    "keywords": ["yii2", "ibls", "pay", "payments"],
+    "name": "idapp/yii2-access-control",
+    "description": "",
+    "keywords": ["yii2",],
     "type": "yii2-extension",
     "license": "proprietary",
-    "homepage": "http://iblschool.ru/",
     "authors": [
         {
-            "name": "Dmitry Grinevich",
-            "email": "d.grinevich@iblschool.ru",
-            "homepage": "http://iblschool.ru/",
+            "name": "Denis Grigorov",
             "role": "Developer"
         }
     ],
@@ -22,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ibls\\payments\\": "src/"
+            "idapp\\access-control\\": "src/"
         }
     },
     "autoload-dev": {
