@@ -10,3 +10,12 @@
 },
 ````
 ВНИМАНИЕ! Репозитории приватные!
+````
+        'authManager' => [
+            'class' => idapp\rbac\AuthManager::class,
+            'userClass' => 'idapp\rbac\models\User,
+        ],
+````
+
+Требование:
+Наличие таблицы user 

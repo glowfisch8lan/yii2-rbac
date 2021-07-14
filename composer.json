@@ -1,5 +1,5 @@
 {
-    "name": "idapp/yii2-access-control",
+    "name": "idapp/yii2-rbac",
     "description": "",
     "keywords": ["yii2"],
     "type": "yii2-extension",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "idapp\\access-control\\": "src/"
+            "idapp\\rbac\\": "src/"
         }
     },
     "autoload-dev": {
