@@ -1,7 +1,9 @@
 {
     "name": "idapp/yii2-rbac",
     "description": "",
-    "keywords": ["yii2"],
+    "keywords": [
+        "yii2"
+    ],
     "type": "yii2-extension",
     "license": "proprietary",
     "authors": [
@@ -12,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "yiisoft/yii2": "~2.0.0"
+        "codeception/module-asserts": "^1.0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"

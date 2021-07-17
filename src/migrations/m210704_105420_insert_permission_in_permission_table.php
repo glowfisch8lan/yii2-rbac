@@ -1,6 +1,5 @@
 <?php
 
-namespace idapp\rbac\migrations;
 
 use yii\db\Migration;
 
@@ -14,8 +13,8 @@ class m210704_105420_insert_permission_in_permission_table extends Migration
      */
     public function safeUp()
     {
-        $this->batchInsert('permission', ['rule', 'description'], [
-            ['system.all.permission', 'Полный доступ к администрированию'],
+        $this->batchInsert('{{%permission}}', ['rule', 'description'], [
+            ['system.all.permission', 'Full access to app'],
         ]);
     }
 

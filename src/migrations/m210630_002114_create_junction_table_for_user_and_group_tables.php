@@ -1,6 +1,5 @@
 <?php
 
-namespace idapp\rbac\migrations;
 
 use yii\db\Migration;
 

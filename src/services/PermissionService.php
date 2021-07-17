@@ -10,7 +10,7 @@ use idapp\rbac\models\User;
 use yii\base\BaseObject;
 use idapp\rbac\models\enums\Permission as PermissionEnum;
 
-class PermissionService extends BaseObject
+class PermissionService
 {
 
     public function createRelatedPermissions(Group $group, array $permissions)
